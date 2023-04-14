@@ -197,3 +197,41 @@ a {
 .footer button {
   border: 2px solid white;
 }
+
+/* Adding Responsiveness */
+
+@media (max-width: 991px) {
+  .logo {
+    width: 120px;
+    padding-left: 1rem;
+  }
+
+  .features .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features .col:nth-child(even) {
+    order: 1;
+  }
+
+  .features .col img {
+    order: -1;
+    margin-bottom: 1.5rem;
+  }
+
+  .features-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .feature1.row,
+  .feature3.row {
+    flex-direction: column;
+  }
+
+  .feature2.row,
+  .feature4.row {
+    flex-direction: column-reverse;
+  }
+}
