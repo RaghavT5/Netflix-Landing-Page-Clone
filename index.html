@@ -58,6 +58,7 @@
                 <a class="nav-link text-white" href="#"
                   ><button
                     class="btn btn-danger py-auto px-3 align-items-center justify-content-center"
+                    style="width: 100%"
                   >
                     Sign In
                   </button></a
@@ -69,7 +70,7 @@
 
         <!-- Jumbotron -->
         <div
-          class="jumbotron justify-content-center align-items-center text-center"
+          class="jumbotron container justify-content-center align-items-center text-center"
         >
           <h1 class="display-5 fw-bold">
             Unlimited movies, TV shows, and more.
@@ -80,14 +81,19 @@
             Ready to watch? Enter your email to create or restart your
             membership.
           </h5>
-          <form class="d-flex py-3 justify-content-center">
-            <input
-              class="form-control me-2 email-input text-white"
-              type="email"
-              placeholder="Email address"
-              aria-label="Email address"
-              required
-            />
+
+          <form
+            class="d-flex flex-column flex-sm-row py-3 justify-content-center"
+          >
+            <div class="mb-2 mb-sm-0 me-sm-2">
+              <input
+                class="form-control form-control-sm me-md-2 mb-2 mb-md-0 email-input text-white"
+                type="email"
+                placeholder="Email address"
+                aria-label="Email address"
+                required
+              />
+            </div>
             <button
               class="btn btn-danger fw-bolder px-4 py-2 sign-up"
               type="submit"
@@ -150,9 +156,9 @@
                 />
               </div>
               <div
-                class="feature2 col col-6 justify-content-center align-items-center pe-5"
+                class="feature2 col col-sm-6 justify-content-center align-items-center ps-xl-5"
               >
-                <h1 class="feature2 display-5 fw-bold pe-xl-5 me-xl-5">
+                <h1 class="feature2 display-5 fw-bold ms-xl-5 px-xl-5">
                   Download your shows to watch offline.
                 </h1>
                 <h4 class="feature2 mt-4">
@@ -166,7 +172,7 @@
               class="feature3 row align-items-center justify-content-center flex mx-auto"
             >
               <div
-                class="feature3 col col-6 justify-content-center align-items-center ps-xl-5"
+                class="feature3 col col-sm-6 justify-content-center align-items-center ps-xl-5"
               >
                 <h1 class="feature3 display-5 fw-bold ms-xl-5 px-xl-5">
                   Watch everywhere.
@@ -207,7 +213,7 @@
                 />
               </div>
               <div
-                class="feature2 col col-6 justify-content-center align-items-center pe-5"
+                class="feature2 col col-sm-6 justify-content-center align-items-center ps-xl-5"
               >
                 <h1 class="feature2 display-5 fw-bold pe-xl-5 me-xl-5">
                   Download your shows to watch offline.
@@ -457,26 +463,34 @@
       <section
         class="sign-up-2 align-items-center justify-content-center text-center pt-5 pb-4"
       >
-        <div>
-          <h5 class="fw-normal">
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </h5>
-          <form class="d-flex py-3 justify-content-center">
-            <input
-              class="form-control me-2 email-input text-white"
-              type="email"
-              placeholder="Email address"
-              aria-label="Email address"
-              required
-            />
-            <button
-              class="btn btn-danger fw-bolder px-4 py-2 sign-up"
-              type="submit"
-            >
-              Get Started <i class="fas fa-chevron-right fa-sm"></i>
-            </button>
-          </form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+              <h5 class="fw-normal">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </h5>
+              <form
+                class="d-flex flex-column flex-sm-row py-3 justify-content-center"
+              >
+                <div class="mb-2 mb-sm-0 me-sm-2">
+                  <input
+                    class="form-control form-control-sm me-md-2 mb-2 mb-md-0 email-input text-white"
+                    type="email"
+                    placeholder="Email address"
+                    aria-label="Email address"
+                    required
+                  />
+                </div>
+                <button
+                  class="btn btn-danger fw-bolder px-4 py-2 sign-up"
+                  type="submit"
+                >
+                  Get Started <i class="fas fa-chevron-right fa-sm"></i>
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
 
