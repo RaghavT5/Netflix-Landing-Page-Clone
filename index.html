@@ -26,10 +26,10 @@
       <div class="header">
         <!-- NavBar -->
         <nav
-          class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-transparent text-white pt-3"
+          class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-transparent text-white pt-lg-3"
         >
           <div class="container-fluid">
-            <a class="navbar-brand me-3" href="#">
+            <a class="navbar-brand me-3 me-sm-0" href="#">
               <img
                 src="./images/logo.png"
                 alt="Netflix Logo"
@@ -37,8 +37,10 @@
                 class="logo"
               />
             </a>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
+            <ul
+              class="navbar-nav ms-auto mb-lg-0 ms-sm-0 d-flex align-items-center"
+            >
+              <li class="nav-item dropdown pb-lg-2">
                 <a
                   class="nav-link dropdown-toggle text-white"
                   href="#"
@@ -47,7 +49,8 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  English
+                  <i class="fas fa-globe me-2"></i>
+                  <span class="d-none-sm">English</span>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                   <li><a class="dropdown-item" href="#">English</a></li>
@@ -103,8 +106,7 @@
           </form>
         </div>
       </div>
-
-      <hr class="main" />
+      <hr class="main m-0" />
 
       <!-- Features Section -->
 
@@ -112,10 +114,10 @@
         <div class="features-container">
           <div class="grid justify-content-center mx-auto">
             <div
-              class="feature1 row align-items-center justify-content-center flex mx-auto"
+              class="feature1 row align-items-center justify-content-center flex mx-auto my-lg-0 my-md-5 my-sm-5"
             >
               <div
-                class="feature1 col col-sm-6 justify-content-center align-items-center ps-xl-5"
+                class="feature1 col col-sm-6 justify-content-center align-items-center ps-xl-5 pb-md-0 pb-sm-0"
               >
                 <h1 class="feature1 display-5 fw-bold ms-xl-5 px-xl-5">
                   Enjoy on your TV.
@@ -126,7 +128,7 @@
                 </h4>
               </div>
               <div
-                class="feature1 video-container col col-sm-6 justify-content-center align-items-center"
+                class="feature1 video-container col col-sm-6 justify-content-center align-items-center mt-md-0"
               >
                 <video autoplay muted loop id="bg-video">
                   <source
@@ -138,13 +140,13 @@
                 <img
                   src="./images/tv.png"
                   width="450px"
-                  class="feature1 my-xl-5 py-xl-5"
+                  class="feature1 my-xl-5 py-xl-5 my-sm-0 py-sm-0"
                 />
               </div>
             </div>
             <hr class="main" />
             <div
-              class="feature2 row align-items-center justify-content-center flex mx-auto"
+              class="feature2 row align-items-center justify-content-center flex mx-auto my-lg-0 my-md-5 my-sm-5"
             >
               <div
                 class="feature2 video-container col col-6 justify-content-center align-items-center ps-xl-5"
@@ -152,13 +154,13 @@
                 <img
                   src="./images/feature-2.png"
                   width="450px"
-                  class="feature2 my-xl-5 py-xl-5 ms-xl-5 ps-xl-5"
+                  class="feature2 my-xl-5 py-xl-5 ms-xl-5 ps-xl-5 pt-md-5"
                 />
               </div>
               <div
                 class="feature2 col col-sm-6 justify-content-center align-items-center ps-xl-5"
               >
-                <h1 class="feature2 display-5 fw-bold ms-xl-5 px-xl-5">
+                <h1 class="feature2 display-5 fw-bold me-xl-5 pe-xl-5">
                   Download your shows to watch offline.
                 </h1>
                 <h4 class="feature2 mt-4">
@@ -169,7 +171,7 @@
             </div>
             <hr class="main" />
             <div
-              class="feature3 row align-items-center justify-content-center flex mx-auto"
+              class="feature3 row align-items-center justify-content-center flex mx-auto my-lg-0 my-md-5 my-sm-5"
             >
               <div
                 class="feature3 col col-sm-6 justify-content-center align-items-center ps-xl-5"
@@ -201,26 +203,26 @@
             </div>
             <hr class="main" />
             <div
-              class="feature2 row align-items-center justify-content-center flex mx-auto"
+              class="feature4 row align-items-center justify-content-center flex mx-auto my-lg-0 my-md-5 my-sm-5"
             >
               <div
-                class="feature2 video-container col col-6 justify-content-center align-items-center ps-xl-5"
+                class="feature4 video-container col col-6 justify-content-center align-items-center ps-xl-5"
               >
                 <img
                   src="./images/feature-4.png"
                   width="450px"
-                  class="feature2 my-xl-5 py-xl-5 ms-xl-5 ps-xl-5"
+                  class="feature4 my-lg-5 py-lg-5 ms-lg-5 ps-lg-5 mt-md-5"
                 />
               </div>
               <div
-                class="feature2 col col-sm-6 justify-content-center align-items-center ps-xl-5"
+                class="feature4 col col-sm-6 justify-content-center align-items-center ps-xl-5"
               >
-                <h1 class="feature2 display-5 fw-bold pe-xl-5 me-xl-5">
-                  Download your shows to watch offline.
+                <h1 class="feature4 display-5 fw-bold pe-xl-5 me-xl-5">
+                  Create profiles for children.
                 </h1>
-                <h4 class="feature2 mt-4">
-                  Save your favourites easily and always have something to
-                  watch.
+                <h4 class="feature4 mt-4">
+                  Send children on adventures with their favourite characters in
+                  a space made just for them—free with your membership.
                 </h4>
               </div>
             </div>
@@ -461,10 +463,10 @@
       <!-- Signup 2 -->
 
       <section
-        class="sign-up-2 align-items-center justify-content-center text-center pt-5 pb-4"
+        class="sign-up-2 align-items-center justify-content-center text-center pt-5 pb-4 text-sm-center"
       >
         <div
-          class="container justify-content-center align-items-center text-center"
+          class="container justify-content-center align-items-center text-center text-sm-center"
         >
           <h5 class="fw-normal">
             Ready to watch? Enter your email to create or restart your
@@ -568,7 +570,7 @@
               >
             </div>
           </div>
-          <div class="dropdown px-5 mx-sm-3 pt-4">
+          <div class="dropdown px-5 mx-lg-3 mx-md-0 mx-sm-0 pt-4">
             <button
               class="btn dropdown-toggle text-white px-4"
               type="button"
@@ -576,6 +578,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
+              <i class="fas fa-globe me-2"></i>
               English
             </button>
             <ul class="dropdown-menu" aria-labelledby="languageDropdown">
