@@ -293,7 +293,7 @@ a {
   }
 }
 
-@media (max-width: 586px) {
+@media (max-width: 768px) {
   body,
   html {
     margin: 0;
@@ -336,30 +336,49 @@ a {
   }
 
   .jumbotron {
-    top: -10%;
+    top: 0%;
   }
 
   .jumbotron h1.display-5 {
     font-size: 2rem;
   }
 
-  .feature1 img {
-    width: 455px;
-  }
-
   .feature1 #bg-video {
-    width: 130%;
+    width: 100%;
+    padding-left: 1rem;
   }
 
   .feature1.video-container.col.col-sm-6.justify-content-center.align-items-center {
     padding-top: 6rem;
-    padding-left: 11rem;
   }
 
-  .feature3 .video-container video {
-    max-width: 280px;
-    padding-top: 3.5rem;
-    padding-left: 3.5rem;
+  .feature1 img {
+    width: 250%;
+    margin-right: 5.5rem;
+  }
+
+  .feature2 img {
+    width: 300%;
+  }
+
+  .feature3.video-container.col.col-6.justify-content-center.align-items-center {
+    padding-top: 7.5rem;
+    padding-right: 5rem;
+    /* width: 415px; */
+  }
+
+  .feature3 #bg-video {
+    width: 105%;
+    margin-left: -4rem;
+  }
+
+  .feature3 img {
+    width: 400px;
+    margin-right: 2.5rem;
+  }
+
+  .feature4 img {
+    width: 275%;
   }
 
   .accordion-button.collapsed::after {
